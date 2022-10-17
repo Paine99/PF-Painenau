@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color:#fff;
+  
+    /* Estilos generales*/
+
+    }
+/*AQUI COMIENZA EL HEADER*/
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.df_ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 15px;
+}
+.df_ul li a:hover{
+    background-color: #4d4949;
+    transition: all 1.5s ease;
+    border: 1px solid #000;
+
+}    
+.df_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #8a8888;    
+}
+.df_ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+/*AQUI TERMINA EL HEADER*/
+
+/*AQUI COMIENZA EL CONTENEDOR*/
+.contenedor1{
+    width: 70%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 50% 50%
+
+}
+.imagen_izquierda{
+    display: grid;
+    /*background-color: red;*/
+}
+.texto_derecha {
+    display: grid;
+    text-align: center;
+    /*background-color: yellow;*/
+}
+.imagen_derecha{
+    display: grid;
+   /* background-color: navy;*/
+}
+.texto_izquierda{
+    display: grid;
+    text-align: center;
+    /*background-color: green;*/
+}
+.marcas{
+    grid-column: 1fr 1fr 1fr;
+    display: grid;
+    border: 2px solid #000;
+    /*background-color: red;*/
+}
+.marcas h1 {
+    grid-template-columns:1/3;
+    justify-self: center;
+    background-color: royalblue;
+}
+.img {
+    grid-template-columns:1fr 1fr 1fr;
+    display: grid;
+    grid-template-rows: 1fr;
+    justify-content: center;
+}
+.img1{
+    display: grid;
+    justify-self: start;
+}
+.img2{
+    display: grid; 
+    justify-self: center;
+}
+.img3{
+    display: grid;
+    justify-self: end;
+}
+.contactanos {
+    text-align: center;
+
+}
+.contactanos a{
+    size: 40px;
+    border: solid 1px black;
+    text-decoration: none;
+    color: #000;
+}
+.contactanos a:hover{
+   transition: all 1.5s ease;
+   background-color: green;
+   
+
+}
+/*AQUI TERMINA EL CONTENEDOR*/
+/*AQUI COMIENZA EL FOOTER*/
+footer{
+    width: 100%;
+    height: 120px;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 64px 64px 64px 64px;
+    justify-content: center;
+    column-gap: 3em;
+    border: 2px solid #000;
+    /*Se cambio flexbox por grids*/
+}
+footer a:hover{
+    transform: scale(1.5 );
+    transition: all 1s ease;
+}
+footer a {
+    align-self: center;
+}
+/*AQUI TERMINA EL FOOTER*/
+
+
