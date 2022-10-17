@@ -104,7 +104,7 @@ body {
 
 }
 .contactanos a{
-    size: 40px;
+    size: 110px;
     border: solid 1px black;
     text-decoration: none;
     color: #000;
@@ -112,8 +112,6 @@ body {
 .contactanos a:hover{
    transition: all 1.5s ease;
    background-color: green;
-   
-
 }
 /*AQUI TERMINA EL CONTENEDOR*/
 /*AQUI COMIENZA EL FOOTER*/
@@ -121,7 +119,6 @@ footer{
     width: 100%;
     height: 120px;
     display: grid;
-    grid-template-rows: 1fr;
     grid-template-columns: 64px 64px 64px 64px;
     justify-content: center;
     column-gap: 3em;
