@@ -43,76 +43,7 @@ body {
 /*AQUI TERMINA EL HEADER*/
 
 /*AQUI COMIENZA EL CONTENEDOR*/
-.contenedor1{
-    width: 70%;
-    height: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    display: grid;
-    grid-template-columns: 50% 50%
 
-}
-.imagen_izquierda{
-    display: grid;
-    /*background-color: red;*/
-}
-.texto_derecha {
-    display: grid;
-    text-align: center;
-    /*background-color: yellow;*/
-}
-.imagen_derecha{
-    display: grid;
-   /* background-color: navy;*/
-}
-.texto_izquierda{
-    display: grid;
-    text-align: center;
-    /*background-color: green;*/
-}
-.marcas{
-    grid-column: 1fr 1fr 1fr;
-    display: grid;
-    border: 2px solid #000;
-    /*background-color: red;*/
-}
-.marcas h1 {
-    grid-template-columns:1/3;
-    justify-self: center;
-    background-color: royalblue;
-}
-.img {
-    grid-template-columns:1fr 1fr 1fr;
-    display: grid;
-    grid-template-rows: 1fr;
-    justify-content: center;
-}
-.img1{
-    display: grid;
-    justify-self: start;
-}
-.img2{
-    display: grid; 
-    justify-self: center;
-}
-.img3{
-    display: grid;
-    justify-self: end;
-}
-.contactanos {
-    text-align: center;
-
-}
-.contactanos a{
-    size: 110px;
-    border: solid 1px black;
-    text-decoration: none;
-    color: #000;
-}
-.contactanos a:hover{
-   transition: all 1.5s ease;
-   background-color: green;
-}
 /*AQUI TERMINA EL CONTENEDOR*/
 /*AQUI COMIENZA EL FOOTER*/
 footer{
