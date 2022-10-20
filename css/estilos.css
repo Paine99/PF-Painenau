@@ -13,7 +13,7 @@ body {
 .header {
   background-color: #0769e9;
   height: 80px;
-  position: block ;
+  position: block;
   width: 100%;
   top: 0;
   left: 0;
@@ -70,9 +70,11 @@ body {
 
   display: none;
 }
-.texto{
+
+.texto {
   padding: 30px 0;
 }
+
 /* MOBILE */
 @media (max-width: 992px) {
   .header {
@@ -149,3 +151,97 @@ footer a {
 }
 
 /*AQUI TERMINA EL FOOTER*/
+/*GALERIA*/
+.item {
+  height: 250px;
+  overflow-y: hidden;
+  border: 1px #000 solid;
+}
+
+/*GALERIA*/
+.galeria{ 
+  align-items: center;
+  justify-content: center;
+}
+.item1 {
+  background-image: url(../media/trabajos_alum/img11.jpg);
+  background-size: cover;
+  background-position: center;
+  /*margin: 10px 60px;*/
+}
+
+.item2 {
+  background-image: url(../media/trabajos_alum/img12.jpg);
+  background-size: cover;
+  background-position: center;
+  /*margin: 10px 60px;*/
+}
+
+.item3 {
+  background-image: url(../media/trabajos_alum/img13.jpg);
+  background-size: cover;
+  background-position: center;
+  /*margin: 10px 60px;*/
+}
+
+.item4 {
+  background-image: url(../media/trabajos_alum/img3.jpg);
+  background-size: cover;
+  background-position: center;
+  /*margin: 10px 60px;*/
+}
+
+.item5 {
+  background-image: url(../media/trabajos_alum/img4.jpg);
+  background-size: cover;
+  background-position: center;
+  /*margin: 10px 60px;*/
+}
+
+.item6 {
+  background-image: url(../media/trabajos_alum/img5.jpg);
+  background-size: cover;
+  background-position: center;
+  /*margin: 10px 60px;*/
+}
+
+.item7 {
+  background-image: url(../media/trabajos_alum/img6.jpg);
+  background-size: cover;
+  background-position: center;
+  /*margin: 10px 60px;*/
+}
+
+.item8 {
+  background-image: url(../media/trabajos_alum/img1.jpg);
+  background-size: cover;
+  background-position: center;
+  /*margin: 10px 60px;*/
+}
+
+.item9 {
+  background-image: url(../media/trabajos_alum/img10.jpg);
+  background-size: cover;
+  background-position: center;
+  /*margin: 10px 60px;*/
+}
+.item10 {
+  background-image: url(../media/trabajos_alum/img8.jpg);
+  background-size: cover;
+  background-position: center;
+  /*margin: 10px 60px;*/
+}
+
+.item11 {
+  background-image: url(../media/trabajos_alum/img7.jpg);
+  background-size: cover;
+  background-position: center;
+  /*margin: 10px 60px;*/
+}
+
+.item12 {
+  background-image: url(../media/trabajos_alum/img2.jpg);
+  background-size: cover;
+  background-position: center;
+  /*margin: 10px 60px;*/
+}
