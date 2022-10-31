@@ -143,8 +143,14 @@ body{
   .texto {
     padding-top: 0;
   }
+  
 }
-
+@media (max-width: 576px) {
+  .ancho_alto{
+    height: 320px;
+    padding: 0 30px;
+  }
+}
 /* MOBILE */
 /*AQUI COMIENZA EL FOOTER*/
 footer {
