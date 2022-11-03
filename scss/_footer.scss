@@ -8,6 +8,9 @@
 	justify-content: center;
 	column-gap: 30px;
 	border: 2px solid #000;
+	 a{
+		align-self: center;
+	 }
 	/*Se cambio flexbox por grids*/
   }
   
@@ -17,7 +20,7 @@
   }
   
   footer a {
-	align-self: center;
+	
   }
   
   /*AQUI TERMINA EL FOOTER*/
