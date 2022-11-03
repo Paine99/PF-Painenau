@@ -1,17 +1,8 @@
 //imports
-@import "menunav"
-//Variables
-$valornull:0;
-$fuente:sans-serif;
-$MaxAncho:100%;
-$bgLigth:#fff;
-$bgnav:#0769e9;
-$Menor:1;
-$Mayor:2;
-$dflex: flex;
-$none:none;
-$var60px:60px;
-$var80px:80px;
+@import "variables";
+@import "menunav";
+@import "mediaquerys";
+@import "footer";
 *{
 margin: $valornull;
 padding: $valornull;
@@ -35,31 +26,6 @@ body{
 	width: $MaxAncho;
 	height: 420px;
   }
-  /*Parte sin agregar scss*/
-  
-  /*AQUI COMIENZA EL FOOTER*/
-  footer {
-	margin-top: 10px;
-	width: $MaxAncho;
-	height: 120px;
-	display: grid;
-	grid-template-columns: 64px 64px 64px 64px;
-	justify-content: center;
-	column-gap: 30px;
-	border: 2px solid #000;
-	/*Se cambio flexbox por grids*/
-  }
-  
-  footer a:hover {
-	transform: scale(1.5);
-	transition: all 1s ease;
-  }
-  
-  footer a {
-	align-self: center;
-  }
-  
-  /*AQUI TERMINA EL FOOTER*/
   /*GALERIA*/
   #galeria .col-lg-3 {
 	padding: 25px;
