@@ -1,7 +1,7 @@
 /* MOBILE */
 @media (max-width: 992px) {
     body{
-      padding-top: $var60px;
+      padding-top: 60px;
     } 
       .header {
         height: $var60px;
@@ -22,8 +22,7 @@
         top: $var60px;
         width: $MaxAncho;
         padding: 20px $valornull;
-    
-        height: $MaxAncho - $var60px;
+        height: calc(100% - 60px);
         overflow-y: auto;
         left: $MaxAncho;
         transition: left 0.3s;
