@@ -1,43 +1,10 @@
 //imports
-@import "variables";
-@import "menunav";
-@import "mediaquerys";
-@import "footer";
-*{
-margin: $valornull;
-padding: $valornull;
-box-sizing: border-box;
-overflow-x: hidden;
-}
-body{
-	font-family: $fuente;
-	padding-top: $var80px;
-}
-  .texto {
-	padding-top: $var60px*2;
-	padding-left: 15px;
-	padding-right: 15px;
-  }
-  .carrusel_fotos img{
-	height: 498px;
-  
-  }
-  .ancho_alto{ 
-	width: $MaxAncho;
-	height: 420px;
-  }
-  .ancho_icons{
-    width: 64px;
-    height: 64px;
-  }
-  /*GALERIA*/
-  #galeria .col-lg-3 {
-	padding: 25px;
-  }
-  #galeria img{
-	width: $MaxAncho;
-	height: 250px;
-	margin-top: 15px;
-  }
-  /*GALERIA*/
+@import "scss/variables.scss";
+@import"scss/reset.scss";
+@import "scss/menunav.scss";
+@import "scss/mediaquerys992.scss";
+@import "scss/mediaquerys576.scss";
+@import "scss/footer.scss";
+@import "scss/galeria.scss";
+
   
