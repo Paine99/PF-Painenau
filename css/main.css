@@ -32,6 +32,9 @@ body {
   width: 100px;
   height: 100px; }
 
+.color {
+  color: white; }
+
 .header {
   background-color: #0769e9;
   height: 80px;
