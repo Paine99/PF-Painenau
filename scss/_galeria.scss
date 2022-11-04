@@ -1,10 +1,14 @@
 /*GALERIA*/
 #galeria .col-lg-3 {
-	padding: 25px;
+  padding: 25px;
+}
+
+#galeria {
+  img {
+    width: $MaxAncho;
+    height: 250px;
+    margin-top: 15px;
   }
-  #galeria img{
-	width: $MaxAncho;
-	height: 250px;
-	margin-top: 15px;
-  }
-  /*GALERIA*/
+}
+
+/*GALERIA*/

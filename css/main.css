@@ -28,6 +28,10 @@ body {
   width: 64px;
   height: 64px; }
 
+.anchoaltomarcas {
+  width: 100px;
+  height: 100px; }
+
 .header {
   background-color: #0769e9;
   height: 80px;
@@ -106,7 +110,8 @@ body {
     transition: left 0.3s; }
   .nav-menu-item {
     line-height: 70px; }
-  .nav-menu-link:hover, .nav-menu-link_active {
+  .nav-menu-link:hover,
+  .nav-menu-link_active {
     background: none;
     color: #83c5f7; }
   .nav-toggle {
@@ -115,7 +120,9 @@ body {
     left: 0; }
   .nav-toggle:focus:not(:focus-visible) {
     outline: none; }
-  .carousel-control-next, .carousel-control-prev, .carousel-indicators {
+  .carousel-control-next,
+  .carousel-control-prev,
+  .carousel-indicators {
     z-index: 1; }
   .texto {
     padding-top: 0; } }
@@ -137,12 +144,13 @@ footer {
   column-gap: 30px;
   border: 2px solid #000;
   /*Se cambio flexbox por grids*/ }
-  footer a {
-    align-self: center; }
 
 footer a:hover {
   transform: scale(1.5);
   transition: all 1s ease; }
+
+footer a {
+  align-self: center; }
 
 /*AQUI TERMINA EL FOOTER*/
 /*GALERIA*/
