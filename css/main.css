@@ -187,4 +187,11 @@ footer a {
 .fondo3 {
   background-image: url(../media/images/fondo4.jpg); }
 
+.hoverimg img {
+  border-radius: 10px; }
+
+.hoverimg :hover {
+  border: 1px solid #83c5f7;
+  transition: all 1s ease; }
+
 /*GALERIA*/
