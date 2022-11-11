@@ -151,7 +151,10 @@ body {
 @media (max-width: 576px) {
   .ancho_alto {
     height: 320px;
-    padding: 0 30px; } }
+    padding: 0 30px; }
+  .anchoaltomarcas {
+    height: 75px;
+    width: 75px; } }
 
 /*AQUI COMIENZA EL FOOTER*/
 footer {
