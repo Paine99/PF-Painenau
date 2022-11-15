@@ -136,10 +136,6 @@ body {
   .carousel-indicators {
     z-index: 1; }
   .texto, .texto2, .texto3 {
-    padding-top: 0; }
-  .texto2 {
-    padding-top: 0; }
-  .texto3 {
     padding-top: 0; } }
 
 /* MOBILE */
