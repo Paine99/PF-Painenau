@@ -15,7 +15,12 @@ body {
   padding-left: 15px;
   padding-right: 15px;
 }
-
+.texto2{
+  @extend .texto;
+}
+.texto3{
+  @extend .texto;
+}
 .carrusel_fotos img {
   height: 498px;
 
@@ -42,8 +47,7 @@ body {
 }
 .color {
   color: #000;
-  display: flex;
-  flex-direction: column;
+  @include Df_Direction();
   position: absolute;
   top: 50%;
   left: 50%;

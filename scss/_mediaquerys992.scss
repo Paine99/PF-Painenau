@@ -15,7 +15,7 @@
   }
 
   .nav-menu {
-    flex-direction: column;
+    @include Df_Direction();
     align-items: center;
     margin: $valornull;
     background-color: #2c3e50;
@@ -54,7 +54,7 @@
   .carousel-control-next,
   .carousel-control-prev,
   .carousel-indicators {
-    z-index: 1;
+    z-index: $Menor;
   }
 
   .texto {
